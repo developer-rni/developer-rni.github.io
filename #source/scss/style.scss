@@ -69,9 +69,15 @@ body {
 				font-size: 1.1em;
 				color: #bdbdbd;
 				text-decoration: none;
+				padding: 1.7em 0 1.1em;
 			}
 			a:hover {
 				border-bottom: 7px solid #f44336
+			}
+		}
+		.active {
+			a {
+				border-bottom: 7px solid #f44336;
 			}
 		}
 	}

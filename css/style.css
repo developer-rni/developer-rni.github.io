@@ -119,9 +119,12 @@ body {
       text-transform: uppercase;
       font-size: 1.1em;
       color: #bdbdbd;
-      text-decoration: none; }
+      text-decoration: none;
+      padding: 1.7em 0 1.1em; }
     .top-nav ul li a:hover {
       border-bottom: 7px solid #f44336; }
+  .top-nav ul .active a {
+    border-bottom: 7px solid #f44336; }
 
 .banner {
   background: url(../img/banner.jpg) 0px 0px no-repeat;
