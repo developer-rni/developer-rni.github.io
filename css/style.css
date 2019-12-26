@@ -450,3 +450,116 @@ ul.social-ic-icons li a span {
 .footer-grid {
   color: #fff;
   font-family: 'Roboto', sans-serif; }
+
+/*----*/
+.work-in {
+  padding: 3em 0; }
+
+.work-in img {
+  width: 100%; }
+
+.work {
+  text-align: center;
+  padding: 4em 0; }
+
+.work h3 {
+  color: #000;
+  font-size: 2.8em;
+  font-weight: 300; }
+
+.work-grid {
+  float: left;
+  width: 50%;
+  margin: 0.5%;
+  position: relative; }
+
+.work-grid1 {
+  width: 47.9%;
+  margin: 0.5% 0% 0.5% 0.5%; }
+
+.work-grid2 {
+  width: 23%; }
+
+.work-grid3 {
+  width: 24%;
+  float: right;
+  margin: 0.5%; }
+
+.work-grid4 {
+  width: 25%;
+  margin: 0.5%;
+  float: left; }
+
+.work-grid5 {
+  width: 48%; }
+
+.work-on {
+  margin-top: 3.5%; }
+
+.simple h5 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.simple h5 span {
+  border-bottom: 5px solid #ffc36e;
+  padding: 0.2em 0; }
+
+.simple {
+  text-align: center;
+  padding: 9em 0;
+  display: none;
+  position: absolute;
+  top: 32px;
+  width: 92%;
+  height: 87%;
+  background: rgba(210, 89, 80, 0.88);
+  left: 23px; }
+
+.simple p {
+  font-size: 1.1em;
+  padding: 1.5em 0;
+  color: #E2E2E2;
+  width: 75%;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.3em; }
+
+.work-grid:hover .simple, .work-bird:hover .simple {
+  display: block; }
+
+.work-bird {
+  position: relative; }
+
+.simple-in {
+  padding: 2em 0;
+  height: 74%; }
+
+.simple-out {
+  padding: 2.5em 0;
+  height: 79%;
+  top: 25px;
+  left: 20px;
+  width: 85%; }
+
+.simple-out h5, .sim-2 h5 {
+  font-size: 1.5em; }
+
+.sim-1 {
+  height: 85%;
+  width: 91%;
+  top: 31px;
+  left: 29px; }
+
+.sim-2 {
+  padding: 10em 0;
+  height: 89%;
+  top: 25px;
+  left: 20px;
+  width: 85%; }
+
+.blog-down {
+  padding: 1em 0;
+  display: block; }

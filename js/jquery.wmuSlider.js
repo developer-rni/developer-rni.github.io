@@ -133,7 +133,11 @@
             if (options.paginationControl) {
                 paginationControl = $('<ul class="wmuSliderPagination"></ul>');
                 $.each(slides, function(i) {
-                    paginationControl.append('<li><a href="#">' + i + '</a></li>');
+                    if (i == options.slideToStart) {
+                        paginationControl.append('<li><a href="#" class="wmuActive">' + i + '</a></li>');
+                    } else {
+                        paginationControl.append('<li><a href="#">' + i + '</a></li>');
+                    }
                     paginationControl.find('a:eq(' + i + ')').click(function(e) {    
                         e.preventDefault();
                         clearTimeout(slideshowTimeout);   
