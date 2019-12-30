@@ -237,12 +237,12 @@ button::-moz-focus-inner {
 .sit span{
 	font-size:1.7em;
 	color:#000;
-	font-weight: 200;
+	font-weight: 400;
 }
 .sit p{
 	font-size: 1.2em;
 	color: #000;
-	font-weight: 300;
+	font-weight: 400;
 	width: 89%;
 	line-height: 1.7em;
 	padding: 1.2em 0;
@@ -252,7 +252,7 @@ h4.prome{
 	float: left;
 	color: #000;
 	font-size: 2.4em;
-	font-weight: 200;
+	font-weight: 400;
 }
 ul.circle-in{
 	float:right;
@@ -271,7 +271,7 @@ ul.circle-in li{
 small.near-left{
 	float:left;
 	font-size: 1.1em;
-	font-weight: 300;
+	font-weight: 400;
 	color:#000;
 }
 a.near-right{
@@ -289,7 +289,7 @@ a.near-right:hover{
 	padding: 3em 0 0;
 }
 .screen {
-	padding: 2em 0 11em;
+	padding: 6em 0 11em;
 }
 @media all and (max-width:1024px){
 #small-dialog {
